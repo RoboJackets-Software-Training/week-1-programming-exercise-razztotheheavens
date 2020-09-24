@@ -35,9 +35,9 @@ int main()
     }
     // Print the Reversed vector
     std::cout << "Reversed Vector: ";
-    for (int i = 0; i < list.size(); i++)
+    for (int v : list)
     {
-        std::cout << list[i] << " ";
+        std::cout << v << " ";
     }
     std::cout << std::endl;
 
